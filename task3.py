@@ -47,3 +47,8 @@ print(f"ROC-AUC Score: {roc_auc_score(y_test, y_proba):.4f}")
 print("\nFeature Importances:")
 for feature, importance in zip(X.columns, xgb_model.feature_importances_):
     print(f"{feature}: {importance:.4f}")
+
+# 8. Interpret coefficients (Feature Importances for XGBoost)
+print("\nFeature Importances:")
+for feature, importance in zip(X.columns, xgb_model.feature_importances_):
+    print(f"{feature}: {importance:.4f}")

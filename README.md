@@ -3,12 +3,12 @@ This repository contains Python scripts for four distinct machine learning class
 
 ## Prerequisites
 
-To run these scripts, you will need Python installed along with the following libraries:
+To run these scripts, you will need Python installed along with the following libraries: 
+[```bash
+pip install pandas numpy scikit-learn xgboost.]
 
-```bash
-pip install pandas numpy scikit-learn xgboost
 
-# Author
+## Author
 Nanditha Krishna EM
 AI inter
 Krutanic
